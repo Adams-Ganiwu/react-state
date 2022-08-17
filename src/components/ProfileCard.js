@@ -1,16 +1,11 @@
 import React from 'react'
 
-function profilecard(writer) {
+function ProfileCard({card}) {
   return (
-      <div className='card'>
-          <div className='textgroup'>
-              <h3>{writer.name}</h3>
-              <p>{writer.email}</p>
-              <p>{writer.phone}</p>
-              <button className='actionBtn'>Read more</button>
-      </div>
+    <div className='green card'>
+      
     </div>
   )
 }
 
-export default profilecard
+export default ProfileCard
